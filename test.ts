@@ -10,6 +10,13 @@ unknown = "unknown";
 // Tuple
 const arrTuple: [string, number] = ["Dior", 19];
 
+// New type for user obj
+type TUserObj = {
+  user: string;
+  age: number;
+  password: string;
+};
+
 function sayHi(
   name: string,
   age: number,
